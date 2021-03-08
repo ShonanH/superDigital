@@ -15,9 +15,9 @@ body {
 .wrapper {
   height: 300px;
   width: 960px;
-  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  background: linear-gradient(135deg, #09d3da, #e6e211, #ff00e0);
   border-radius: 10px;
-  animation: animate 1.5s linear infinite;
+  animation: animate 7s linear infinite;
 }
 
 .display.wrapper span {
@@ -33,24 +33,20 @@ body {
   left: 50%;
   z-index: 999;
   transform: translate(-50%, -50%);
-  background: #fff;
-  height: 200px;
-  width: 700px;
+
   border-radius: 6px;
   text-align: center;
-  justify-content: center;
 }
 
 #time {
   line-height: 275px;
-  color: #000000;
-  font-size: 90px;
+  color: rgb(90, 90, 90);
+  font-size: 80px;
   font-weight: 600;
   letter-spacing: 1px;
   background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: animate 1.5s linear infinite;
+  /* -webkit-text-fill-color: transparent; */
 }
 
 @keyframes animate {
